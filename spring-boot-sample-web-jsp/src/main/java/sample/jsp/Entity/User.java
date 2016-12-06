@@ -1,11 +1,16 @@
 package sample.jsp.Entity;
 
+import com.sun.javafx.beans.IDProperty;
+
 import java.util.List;
+
 
 /**
  * Created by antonio on 06/12/16.
  */
+
 public class User {
+
     private String name;
     private List<String> hobbies;
 

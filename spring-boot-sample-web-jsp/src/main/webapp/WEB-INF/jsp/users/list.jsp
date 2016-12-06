@@ -3,8 +3,7 @@
 <html lang="en">
 
 <body>
-	Hello ${name}
-	<br>
+	Hello WORLD
 </body>
 
 </html>
