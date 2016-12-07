@@ -51,7 +51,7 @@
       </div>
       <div class="col-sm-6">
          <h2>Add new hobby</h2>
-         <form action="/users/details/${id}/createhobby" method="post">
+         <form action="/users/profile/${id}/createhobby" method="post">
             <div class="form-group">
                <label for="hobby">Hobby:</label>
                <input type="text" class="form-control" id="hobby" name="hobby" placeholder="Enter hobby" required>

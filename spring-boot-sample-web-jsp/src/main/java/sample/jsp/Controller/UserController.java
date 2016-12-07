@@ -39,22 +39,22 @@ public class UserController {
                                @RequestParam("email") String email,
                                @RequestParam("age") int age){
         userDao.addUser(firstName,lastName,email,age);
-        return new ModelAndView("redirect:/users/details/"+userDao.getLastIndex());
+        return new ModelAndView("redirect:/users/profile/"+userDao.getLastIndex());
     }
 
-    @RequestMapping(value = "/details/{id}",method = RequestMethod.GET)
-    public String getUserDetails(Model model, @PathVariable("id") int id){
+    @RequestMapping(value = "/profile/{id}",method = RequestMethod.GET)
+    public String getUserProfile(Model model, @PathVariable("id") int id){
         User user = userDao.getUser(id);
         model.addAttribute("user",user);
         model.addAttribute("hobbies",user.getHobbies());
-        return "users/details";
+        return "users/profile";
     }
 
-    @RequestMapping(value="/details/{id}/createhobby",method = RequestMethod.POST)
+    @RequestMapping(value="/profile/{id}/createhobby",method = RequestMethod.POST)
     public ModelAndView createHobby(@PathVariable("id") int id,
                                     @RequestParam("hobby") String hobby,
                                     @RequestParam("description") String description){
         userDao.getUser(id).addHobby(new Hobby(hobby,description));
-        return new ModelAndView("redirect:/users/details/"+id);
+        return new ModelAndView("redirect:/users/profile/"+id);
     }
 }

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996d3a16-acdd-4954-a7f2-9a195c406a30" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/classes/sample/jsp/Controller/UserController.class" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/classes/sample/jsp/Controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Dao/UserDao.java" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/" />
@@ -24,11 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+            <state relative-caret-position="359">
+              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/profile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listUsers.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -66,6 +88,8 @@
       <find>adduser</find>
       <find>hobbie</find>
       <find>welcome</find>
+      <find>deta</find>
+      <find>details</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp</dir>
@@ -97,12 +121,13 @@
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Entity/Hobby.java" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Entity/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/addUser.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/profile.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp" />
       </list>
     </option>
   </component>
@@ -658,6 +683,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325" sideWeight="0.49535194" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -669,7 +695,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -853,26 +878,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="50" column="7" lean-forward="false" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -911,8 +920,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        <state relative-caret-position="359">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
           <folding />
         </state>
       </provider>
