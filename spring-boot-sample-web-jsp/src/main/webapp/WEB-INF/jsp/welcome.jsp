@@ -19,7 +19,26 @@
          </div>
       </nav>
       <div class="container">
-         <h2>Welcome Admin: ${name}</h2>
+         <h2>Welcome: ${name}</h2>
+      </div>
+      <div class="container">
+         <h2>Continue Registration</h2>
+         <form action="/users/create" method="post">
+            <div class="form-group">
+               <label for="lastName">Last Name:</label>
+               <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter last name" required>
+            </div>
+            <div class="form-group">
+               <label for="email">Email:</label>
+               <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+               <label for="age">Age:</label>
+               <input type="number" class="form-control" id="age" name="age" placeholder="Enter age" required>
+            </div>
+             <input type="hidden" name="firstName" value="${name}">
+            <button type="submit" class="btn btn-default">Submit</button>
+         </form>
       </div>
    </body>
 </html>

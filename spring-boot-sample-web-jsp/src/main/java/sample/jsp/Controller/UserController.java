@@ -39,7 +39,7 @@ public class UserController {
                                @RequestParam("email") String email,
                                @RequestParam("age") int age){
         userDao.addUser(firstName,lastName,email,age);
-        return new ModelAndView("redirect:/users");
+        return new ModelAndView("redirect:/users/details/"+userDao.getLastIndex());
     }
 
     @RequestMapping(value = "/details/{id}",method = RequestMethod.GET)

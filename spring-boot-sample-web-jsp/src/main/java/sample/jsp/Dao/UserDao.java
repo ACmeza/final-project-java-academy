@@ -32,4 +32,9 @@ public class UserDao {
 
         return users.get(key);
     }
+
+    public int getLastIndex(){
+
+        return assignId-1;
+    }
 }
