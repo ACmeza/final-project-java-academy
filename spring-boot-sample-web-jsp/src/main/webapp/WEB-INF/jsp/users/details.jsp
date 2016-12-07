@@ -23,12 +23,13 @@
          </div>
       </nav>
       <div class="container">
-      <h5>      Name : ${user.firstName} ${user.lastName}
-         <br>
-         Age : ${user.age}
+      <h4>
+         Name : ${user.firstName} ${user.lastName}
          <br>
          Email : ${user.email}
-      </h5>
+         <br>
+         Age : ${user.age}
+      </h4>
       <div class="col-sm-6">
          <h2>My hobbies</h2>
          <table class="table table-striped">
@@ -49,7 +50,7 @@
          </table>
       </div>
       <div class="col-sm-6">
-         <h2>Add new hobbie</h2>
+         <h2>Add new hobby</h2>
          <form action="/users/details/${id}/createhobby" method="post">
             <div class="form-group">
                <label for="hobby">Hobby:</label>
