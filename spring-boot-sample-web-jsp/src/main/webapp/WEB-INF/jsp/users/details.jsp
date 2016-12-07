@@ -1,43 +1,63 @@
 <!DOCTYPE html>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+   <body>
+                  <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Homepage</a>
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li><a href="/">Welcome</a></li>
+                        <li class="active"><a href="/users">User List</a></li>
+                        <li><a href="/users/adduser">Add User</a></li>
+                      </ul>
+                    </div>
+                  </nav>
 
-<body>
+    <div class="container">
+        <h4>      Name : ${user.firstName} ${user.lastName}
+                 <br>
+                 Age : ${user.age}</h4>
 
-   <nav>
-   <a href="/">Welcome</a> |
-   <a href="/users">User List</a> |
-   <a href="/users/adduser">Add User</a>
-   </nav>
 
-Name : ${user.firstName} ${user.lastName}
-<br>
-Age : ${user.age}
+      <div class="col-sm-6">
+        <h2>My hobbies</h2>
+        <table class="table table-striped">
+         <thead>
+            <tr>
+               <th>Hobby</th>
+            </tr>
+         </thead>
+         <tbody>
+            <c:forEach items="${hobbies}" var="hobby">
+               <tr>
+                  <td>${hobby}</td>
+               </tr>
+            </c:forEach>
+         </tbody>
+        </table>
+      </div>
 
-<table>
-    <thead>
-         <tr>
-             <th>Hobbies</th>
-         </tr>
-    </thead>
-    <tbody>
-         <c:forEach items="${hobbies}" var="hobby">
-        <tr>
-            <td align="center">${hobby}</td>
-        </tr>
-         </c:forEach>
-    </tbody>
-</table>
+   <div class="col-sm-6">
+     <h2>Add new hobbie</h2>
+      <form action="/users/details/${id}/createhobby" method="post">
+       <div class="form-group">
+         <label for="hobby">Hobby:</label>
+         <input type="text" class="form-control" id="hobby" name="hobby" placeholder="Enter hobby" required>
+       </div>
+       <button type="submit" class="btn btn-default">Submit</button>
+     </form>
+   </div>
 
-<form action="/users/details/${id}/createhobby" method="post">
-      New Hobby:<br>
-      <input type="text" name="hobby" required><br>
-      <input type="submit" value="Submit">
-</form>
 
-</body>
-
+   </body>
 </html>
