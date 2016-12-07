@@ -2,6 +2,7 @@ package sample.jsp.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -42,4 +43,17 @@ public class UserController {
         return new ModelAndView("redirect:/users");
     }
 
+    @RequestMapping(value = "/details/{id}",method = RequestMethod.GET)
+    public String getUserDetails(Model model, @PathVariable("id") int id){
+        User user = userDao.getUser(id);
+        model.addAttribute("user",user);
+        model.addAttribute("hobbies",user.getHobbies());
+        return "users/details";
+    }
+
+    @RequestMapping(value="/details/{id}/createhobby",method = RequestMethod.POST)
+    public ModelAndView createHobby(@PathVariable("id") int id,@RequestParam("hobby") String hobby){
+        userDao.getUser(id).addHobby(hobby);
+        return new ModelAndView("redirect:/users/details/"+id);
+    }
 }

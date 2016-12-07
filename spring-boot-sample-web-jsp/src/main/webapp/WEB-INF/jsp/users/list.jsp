@@ -9,7 +9,7 @@
       <script type="text/javascript">
 
         function addUser() {
-            document.location.href = "users/adduser";
+            document.location.href = "/users/adduser";
         }
 
       </script>
@@ -29,14 +29,13 @@
     <tbody>
          <c:forEach items="${users}" var="user">
         <tr>
-            <td>${user.id}</td>
-            <td>${user.firstName}</td>
-            <td>${user.lastName}</td>
-            <td>${user.age}</td>
+            <td align="center">${user.value.id}</td>
+            <td align="center">${user.value.firstName}</td>
+            <td align="center">${user.value.lastName}</td>
+            <td align="center">${user.value.age}</td>
         </tr>
          </c:forEach>
     </tbody>
-
 </table>
 
 	 <button class="float-left submit-button" onclick="addUser()">Add user </button>

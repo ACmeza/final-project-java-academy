@@ -13,22 +13,23 @@ import java.util.Map;
 public class UserDao {
 
     private int assignId = 1;
-    private List<User> users;
+    private Map<Integer, User> users;
 
     public UserDao(){
-        users = new ArrayList<>();
+        users = new HashMap<>();
     }
 
     public void addUser(String firstName, String lastName, int age){
-        users.add(new User(assignId,firstName,lastName,age));
+        users.put(assignId,new User(assignId,firstName,lastName,age));
         assignId++;
     }
 
-    public List<User> getAllUsers(){
+    public Map<Integer,User> getAllUsers(){
         return users;
     }
 
     public User getUser(int key){
+
         return users.get(key);
     }
 }
