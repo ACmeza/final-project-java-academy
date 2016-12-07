@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import sample.jsp.Dao.UserDao;
+import sample.jsp.Entity.Hobby;
 import sample.jsp.Entity.User;
 
 import java.util.ArrayList;
@@ -35,8 +36,9 @@ public class UserController {
     @RequestMapping(value="/create",method = RequestMethod.POST)
     public ModelAndView create(@RequestParam("firstName") String firstName,
                                @RequestParam("lastName") String lastName,
+                               @RequestParam("email") String email,
                                @RequestParam("age") int age){
-        userDao.addUser(firstName,lastName,age);
+        userDao.addUser(firstName,lastName,email,age);
         return new ModelAndView("redirect:/users");
     }
 
@@ -49,8 +51,10 @@ public class UserController {
     }
 
     @RequestMapping(value="/details/{id}/createhobby",method = RequestMethod.POST)
-    public ModelAndView createHobby(@PathVariable("id") int id,@RequestParam("hobby") String hobby){
-        userDao.getUser(id).addHobby(hobby);
+    public ModelAndView createHobby(@PathVariable("id") int id,
+                                    @RequestParam("hobby") String hobby,
+                                    @RequestParam("description") String description){
+        userDao.getUser(id).addHobby(new Hobby(hobby,description));
         return new ModelAndView("redirect:/users/details/"+id);
     }
 }

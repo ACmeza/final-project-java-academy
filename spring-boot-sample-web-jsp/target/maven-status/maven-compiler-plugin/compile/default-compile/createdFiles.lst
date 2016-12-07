@@ -1,5 +1,6 @@
+sample/jsp/Entity/Hobby.class
+sample/jsp/SampleWebJspApplication.class
 sample/jsp/Controller/WelcomeController.class
 sample/jsp/Dao/UserDao.class
 sample/jsp/Controller/UserController.class
-sample/jsp/SampleWebJspApplication.class
 sample/jsp/Entity/User.class

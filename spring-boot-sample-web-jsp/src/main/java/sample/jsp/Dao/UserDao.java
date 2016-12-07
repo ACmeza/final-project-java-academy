@@ -19,8 +19,8 @@ public class UserDao {
         users = new HashMap<>();
     }
 
-    public void addUser(String firstName, String lastName, int age){
-        users.put(assignId,new User(assignId,firstName,lastName,age));
+    public void addUser(String firstName, String lastName, String email, int age){
+        users.put(assignId,new User(assignId,firstName,lastName,email, age));
         assignId++;
     }
 
