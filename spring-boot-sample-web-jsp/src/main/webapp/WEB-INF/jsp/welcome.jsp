@@ -4,13 +4,13 @@
       <script type="text/javascript">
 
         function userPage() {
-            document.location.href = "users";
+            document.location.href = "/users";
         }
 
       </script>
    </head>
    <body>
-      Hello ${name}
+     <h1> Welcome Admin: ${name}</h1>
       <br>
       <br>
       <button class="float-left submit-button" onclick="userPage()">Users </button>

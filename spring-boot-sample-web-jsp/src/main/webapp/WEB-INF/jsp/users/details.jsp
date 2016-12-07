@@ -28,7 +28,7 @@ Age : ${user.age}
 
 <form action="/users/details/${id}/createhobby" method="post">
       New Hobby:<br>
-      <input type="text" name="hobby"><br>
+      <input type="text" name="hobby" required><br>
       <input type="submit" value="Submit">
 </form>
 

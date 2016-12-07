@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996d3a16-acdd-4954-a7f2-9a195c406a30" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/adduser.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/addUser.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/classes/sample/jsp/Controller/UserController.class" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/classes/sample/jsp/Controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/classes/sample/jsp/Dao/UserDao.class" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/classes/sample/jsp/Dao/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Dao/UserDao.java" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp" afterPath="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-sample-web-jsp/target/" />
@@ -27,60 +29,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java">
+      <file leaf-file-name="welcomeForm.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="56" column="57" lean-forward="false" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="105">
+              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.jsp">
+      <file leaf-file-name="addUser.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/addUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adduser.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/adduser.jsp">
+      <file leaf-file-name="details.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="450">
+              <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +79,7 @@
       <find>myFunction</find>
       <find>list</find>
       <find>type</find>
+      <find>adduser</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp</dir>
@@ -126,19 +101,20 @@
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/WelcomeController.java" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.html" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/list.jsp" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/WelcomeController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/addUser.jsp" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Entity/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/layout.html" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/userdetails.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/adduser.jsp" />
-        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" />
         <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/addUser.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp" />
       </list>
     </option>
   </component>
@@ -855,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3045">
@@ -876,26 +844,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,44 +869,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="56" column="57" lean-forward="false" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        <state relative-caret-position="104">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/java/sample/jsp/Entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/listUsers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/welcomeForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/addUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/details.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/adduser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-sample-web-jsp/src/main/webapp/WEB-INF/jsp/users/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="450">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding />
         </state>
       </provider>

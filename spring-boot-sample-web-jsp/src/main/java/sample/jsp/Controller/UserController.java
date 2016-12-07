@@ -2,16 +2,14 @@ package sample.jsp.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import sample.jsp.Dao.UserDao;
 import sample.jsp.Entity.User;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by antonio on 06/12/16.
@@ -25,14 +23,13 @@ public class UserController {
 
     @RequestMapping(value="",method = RequestMethod.GET)
     public String listUsers(Model model){
-
         model.addAttribute("users",userDao.getAllUsers());
-        return "users/list";
+        return "users/listUsers";
     }
 
     @RequestMapping("/adduser")
     public String addUser(Model model){
-        return "users/adduser";
+        return "users/addUser";
     }
 
     @RequestMapping(value="/create",method = RequestMethod.POST)
