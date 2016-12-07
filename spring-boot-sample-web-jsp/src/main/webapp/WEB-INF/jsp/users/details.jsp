@@ -7,6 +7,12 @@
 
 <body>
 
+   <nav>
+   <a href="/">Welcome</a> |
+   <a href="/users">User List</a> |
+   <a href="/users/adduser">Add User</a>
+   </nav>
+
 Name : ${user.firstName} ${user.lastName}
 <br>
 Age : ${user.age}
